@@ -145,19 +145,19 @@ table {
 }
 
 #watch{
-  background-image: url("./images/watch_large.jpg"); 
+  background-image: url("watch_large.jpg"); 
 }
 
 #ipadPro{
-  background-image: url("./images/ipad_pro_large.jpg");
+  background-image: url("ipad_pro_large.jpg");
 }
 
 #accessory{
-  background-image: url("./images/accessories_large.jpg");
+  background-image: url("accessories_large.jpg");
 }
 
 #macBook{
-  background-image: url("./images/macbook_large.jpg");
+  background-image: url("macbook_large.jpg");
 }
 
 .phrase-2{
