@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+
+.navBar, .mainPage, .moreInfo, div{
+  max-width: 100%;
+  margin: 5px 0 5px;
+  text-align: center;
+}
+
+.navBar {
+  background-color: rgb(3,3,3);
+}
+
+.navBarIcon{
+  display: inline-block;
+  margin: 0 1%;
+  width: 5%;
+ }
+
+.mainPage{
+  background-color: #fff;
+}
+
+.iPhone6sFoto{
+  display: inline-block;
+  margin: 5px 20px 30px;
+}
+
+.iPhone6sText{
+  display: inline-block;
+  vertical-align: top;
+  margin: 225px 15px 40px;
+}
+
+#aPhrase{
+  font-size: 37px;
+  color: rgb(0,0,0,0.7);
+}
+
+#learnMore{
+  display: inline-block;
+  margin: 5px 10px 30px;
+}
+
+#watchFilm{
+  display: inline-block;
+  margin: 0px 10px 40px;
+}
+
+.moreInfo{
+  color: black;
+  text-decoration: underline;
+}
+
+.moreInfo{
+  max-width: 100%;
+  margin: 20px 10px 20px;
+  display: inline-block;
+  font-size: 23px;
+}
+
+.col-3{
+  display: inline-block;
+  width: 25%;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#watch{
+  background-image: url("./images/watch_large.jpg"); 
+}
+
+#ipadPro{
+  background-image: url("./images/ipad_pro_large.jpg");
+}
+
+#accessory{
+  background-image: url("./images/accessories_large.jpg");
+}
+
+#macBook{
+  background-image: url("./images/macbook_large.jpg");
+}
+
+.phrase-2{
+  font-size: 12px;
+  margin-top: 12px;
+  margin-bottom: 17px; 
+  color: blue;
+  text-align: center;
+}
+
+.footer{
+  text-align: center;
+  max-width: 100%;
+  background-color: rgb(240,240,240);
+  padding-left: 30%;
+  padding-right: 25%;
+}
+
+.col{
+  width: 20%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  padding: 5px 10px;
+  color: #000;
+  text-align: left; 
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.helper1{
+  border-bottom: solid grey;
+  border-width: 2px;
+}
+
+li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  color: black;
+}
+
+.education{
+  padding-bottom: 20px;
+}
+
+.account{
+  padding-bottom: 20px;
+}
+
+p{
+ font-size: 10px;
+ text-align: left;
+}
+
+span{
+  border-right: 2px solid grey;
+}
+
+.us-flag{
+  float: right;
+  
+}
