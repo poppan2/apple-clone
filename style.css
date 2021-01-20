@@ -81,7 +81,7 @@ nav{
    background-color: rgb(3,3,3);
 }
 
-.navBar, .mainPage, .moreInfo, div{
+.navBar, .mainPage, .moreInfo{
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
@@ -140,6 +140,11 @@ nav{
   background-repeat: no-repeat;
   background-position: center;
   height: 150px;
+}
+
+.moreLinks{
+   margin: 0 auto;
+   text-align: center;
 }
 
 #watch{
